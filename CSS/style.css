@@ -1,0 +1,123 @@
+body{
+    background <color>: #131313
+    
+}
+.full-body {
+   width: 1100px;
+   color:whitesmoke;
+   padding-left: 200px;
+}
+.flex-container{
+   display: flex;
+}
+#flexbox-1{
+   flex: 1;
+}
+#flexbox-2{
+   flex: 2;
+}
+#flexbox-1{
+   margin-top: 5%;
+}
+#flexbox-2 img{
+   width: 600px;
+   height: 500px;
+}
+nav ul {
+   display: flex;
+   color: white;
+   background-color: tomato;
+}
+nav ul li {
+   cursor: pointer;
+   list-style: none;
+   padding-left: 50px;
+   padding-top: 20px;
+}
+nav ul h1 {
+   margin-right: 500px;
+   color: khaki;
+}
+#ssp {
+   padding: 10px;
+   text-transform: capitalize;
+   background-color:cornflowerblue;
+   color: white;
+   cursor: pointer;
+   border: 1px solid cornflowerblue;
+}
+#mamw {
+   padding: 10px;
+   text-transform: capitalize;
+   cursor: pointer;
+   background-color: transparent;
+   color: white;
+   border: 1px solid white;
+}
+nav ul :hover {
+   color: blue
+}
+h1 {
+   font-weight: bolder;
+}
+mark {
+   color: yellowgreen;
+   background-color: transparent;
+}
+
+section {
+    font-family: "arial";
+    color: blue;
+    background-color: #c599ff;
+  }
+  
+  h1 {
+    color: rgb(204, 127, 255);
+    text-align: center;
+    font-size: 3.0em
+  }
+  
+  h2 {
+    color: deeppink;
+    text-align: left;
+    font-size: 3.0em
+  }
+
+  h3 {
+    color: rgb(182, 127, 255);
+    text-align: center;
+    font-size: 3.0em
+  }
+
+  h4 {
+     color:rgb(204, 127, 255)
+     texto-align: left;
+     font-size: 3.0em
+  }
+
+  h5 {
+     color: rgb(182, 127, 255);
+     text-align: center;
+     font-size: 3.0em
+
+}
+
+   h6 {
+      color: rgb(182, 127, 255);
+      text-align: center;
+      font-size: 3.0em
+}
+
+#footer {
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 40px;
+    background-color: #333333;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 14px;
+    box-shadow: 0px 0px 2px grey;
+}
